@@ -35,7 +35,13 @@
                 Desde su inicio de operaciones en el 2013, La Pizzeria ha
                 logrado una excelente aceptación entre los consumidores y
                 se destaca por su constante búsqueda de nuevos platos con
-                sabores únicos en el mercado.</p>
+                sabores únicos en el mercado. <br>
+                
+                
+                </p>
+                <div class="imgPeque">
+                    <img src="img/productos/producto5.jpg" width="100%" alt="">
+                </div>
             </div>
             <hr>
             <div class="tarjeta col-sm-12 col-xm-5 col-lg-5" style="display: flex; align-items: center; justify-content: center;">
@@ -51,10 +57,13 @@
                 con el mejor sabor gourmet, un lugar ideal para todo tipo de
                 celebraciones que se mantiene en la mente del consumidor
                 con su innovación de platillos, eventos y experiencias.</p>
+                <div class="imgPeque">
+                    <img src="img/productos/churrasco.png" width="100%" alt="">
+                </div>
             </div>
             <hr>
             <div class="tarjeta col-sm-12 col-xm-5 col-lg-5" style="display: flex; align-items: center; justify-content: center;">
-                <img src="img/icon/logo_laisla_01.svg" height="100%" alt="">
+                <img src="img/icon/logo_laisla_01.svg" height="70%" alt="">
             </div>
             <div class="tarjeta col-sm-12 col-xm-5 col-lg-5">
                 <span class="titulo-tarjeta">LA ISLA - 2019</span>
@@ -67,6 +76,9 @@
                 ofreciendo el mejor sabor en cada uno de los platillos a
                 nuestros clientes dando la pauta para incursionar en el rubro
                 de gastronomia para empresas.</p>
+                <div class="imgPeque">
+                    <img src="img/productos/producto6.jpg" width="100%" alt="">
+                </div>
             </div>
             
             

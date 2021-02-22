@@ -18,7 +18,7 @@
         <section class="info">
             <h2 class="titulo-tarjeta">QUIENES SOMOS</h2>
         </section>
-        <hr>
+        <hr> 
         <section class="contenedor-tarjetas">
             <div class="tarjeta col-sm-12 col-xm-5 col-lg-5">
                 <span class="titulo-tarjeta">GI</span>

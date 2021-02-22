@@ -35,8 +35,8 @@ h6 {
 
 /* Back to top button */
 
-hr {
-    width: 80%;
+hr { 
+    width: 100%;
 }
 
 
@@ -290,6 +290,7 @@ hr {
     background: #f1f1f1;
     padding: 20px 40px;
     border-radius: 0.5rem;
+    
 }
 .tarjetas-home  {
     display: flex;
@@ -649,125 +650,71 @@ hr {
   color: #fff;
 } 
 
-
-/*CLASES PRODUCTOS*/
-
-.productos_lunes {
-    display: flex; 
-    padding: 2% 7%;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.productos_martes,
-.productos_miercoles,
-.productos_jueves,
-.productos_viernes,
-.productos_sabado,
-.productos_domingo {
-    display: none; 
-    padding: 2% 7%;
-    flex-wrap: wrap;
-    justify-content: center; 
-    transition: 0.3s;
-}
  
-.productos_titulo {
-    margin-top: 110px;
-    text-align: center;
-    color: #FF4A30;
-}
-.productos_menu {
+/*CLASES MENU*/
+.menu-contenedor {
     display: flex;
+    margin-top: 30px;
     align-items: center;
-    justify-content: center;
-    background: #E94C34;
-    color: white;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 80px; 
 }  
-#dia1,
-#dia2,
-#dia3,
-#dia4, 
-#dia5,
-#dia6,
-#dia7 {
-    display: none;
-}
- 
-.producto_item_menu {
-    margin: 0;
-    padding: 10px 20px;
-    box-shadow: 0 0px 0 #b22914 inset;
-    transition: 0.2s;
-} 
-.producto_item_menu:hover {
-    box-shadow: 0 -50px 0 #b22914 inset;
-}
-.producto_item_menu label {
-    margin: auto;
-}
-.productos_separador_menu {
-    width: 1px;
-    height: 30px;
-    background: #fff;;
-}
-
-.producto_tarjeta {
-    width: 350px;
-    height: 350px;
-    margin: 15px;
-    border-radius: 0.5rem;
-    overflow: hidden;
-    flex: 1 1 auto;
-    position: relative;
-}
-.producto_tarjeta img {
+.menu-contenedor h1 {
+    font-size: 34pt;
+    font-weight: bold;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+}
+.menu-dia {
+    background-color: #f2f2f2;
+    width: 500px;
+    height: 80px;
+    margin: 10px;
+    box-shadow: inset 0 -6px 0 #E94C34, -5px 5px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 0.3rem;
+    align-items: flex-start;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    transition: 1s;
+    overflow: hidden
+} 
+/*
+.menu-dia:hover {
+    height: 950px;
+    margin: 30px;
+    transform: scale(1.04);
     transition: 0.3s;
 }
-.producto_tarjeta img:hover {
-    transform: scale(1.1);
+*/
+.menu-contenido {
+    width: 450px;
 }
-.producto_parrafo {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin: 0;
-    text-transform: uppercase;
-    color: white;
+.menu-contenido span {
+    font-size: 20pt;
+    color: #238636;
     font-weight: bold;
     padding: 10px;
-    text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0), #000000);
+    font-family: 'Lobster Two', cursive;
+}
+.menu-contenido p {
+    width: 400px;
 } 
-.producto_parrafo input {
+.menu-img {
+    width: 450px;
+}
+.separador-menu {
+    height: 100px;
+    background: black;
     width: 100%;
-    background: rgba(0, 0, 0, 0);
-    color: white;
-    border: 2px solid;
+    background-image: url("../img/productos/producto3.jpg")
+}
+.img-encabezado {
+    width: 100%;
+    margin-bottom: 20px;
     border-radius: 0.3rem;
-    margin: 10px 0;
-    transition: 0.3s;
 }
-.producto_parrafo input:hover {
-    background: #fff;
-    color: #000;
-    border: 2px solid white;
-}
-.titulo_dia {
-    text-transform: uppercase;
-    width: 100%;
-    height: 60px;
-    background: #357712;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24pt;
-    font-weight: bold;
-    color: white;
-    margin: 10px 0; 
-} 
 
 .infos {
     max-width: 1000px;
@@ -790,22 +737,42 @@ hr {
 } 
 .tarjetas-hijo {
     width: 250px;
-    height: 150px;
     background: #f1f1f1;
     margin: 10px;
     padding: 20px;
+    line-height: 40px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    overflow: hidden;
     font-size: 16pt;
-    font-weight: bold;
     border-radius: 0.5rem;
     flex: 1 1 auto;
     transition: 0.5s;
 }
-.tarjetas-hijo:hover {
-    box-shadow: 0 -200px 0 #b22914 inset;
-    color: white;
-    transition: 0.2s;
+.tarjetas-hijo span {
+    font-weight: bold;
+}
+.tarjetas-hijo img {
+    object-fit: cover;
+}
+ 
+.micarrusel {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.33);
+} 
+
+.imgPeque {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

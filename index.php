@@ -7,7 +7,13 @@
     
 <!--importacion de librerias-->
     <?php include('lib/librerias.php');?>
-
+    
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
+ 
 </head>
 
 <body>
@@ -21,7 +27,7 @@
 <!--                <span class="encabezado">LOGO DE EMPRESA</span>-->
             <!-- encabbezado -->
 <!--          <img src="img/logo.png" alt="" class="img-fluid">-->
-          </a>
+          </a> 
         </div>
 
         <nav class="main-nav float-right d-none d-lg-block" id="sidemenu">
@@ -30,7 +36,7 @@
             <li><a href="productos.php" class="ancla">Productos</a></li>
             <li><a href="historia.php" class="ancla">Historia</a></li>
             <li><a href="about.php" class="ancla">Acerca de GI</a></li>
-            <li><a href="ubicacion.php" class="ancla">Ubicación</a></li>
+<!--            <li><a href="ubicacion.php" class="ancla">Ubicación</a></li>-->
             <li><a href="#footer" class="ancla">Contactos</a></li>
           </ul>
         </nav>
@@ -46,84 +52,100 @@
     </section>
     
     <hr>
-    <div class="titulo-servicios">SERVICIOS</div>
+    <div class="titulo-servicios">CON GI OBTIENES</div>
     <div class="tarjetas-servicios">
-        <div class="tarjetas-hijo">Servicio completo de preparación de alimentos</div>
-        <div class="tarjetas-hijo">Recetarios preparados por los mejores Chef con estudios internacionales</div>
-        <div class="tarjetas-hijo">Variedad de menús</div>
-        <div class="tarjetas-hijo">Facturación quincenal</div>
-        <div class="tarjetas-hijo">Precios accesibles</div>
-        <div class="tarjetas-hijo">Certificados de Salud</div>
-        <div class="tarjetas-hijo">Crédito a 15 días</div>
-        <div class="tarjetas-hijo">Productos de calidad</div>
-        <div class="tarjetas-hijo">Trabajamos con los mejores proveedores</div>
+        <div class="tarjetas-hijo">
+           <ul>
+               <li>Servicio completo de preparación de alimentos.</li>
+               <li>Recetarios preparados por los mejores Chef con estudios internacionales.</li>
+               <li>Variedad de menús.</li>
+               <li>Facturación quincenal.</li>
+               <li>Precios accesibles.</li>
+               <li>Certificados de Salud.</li>
+               <li>Crédito a 15 días.</li>
+               <li>Productos de calidad.</li>
+               <li>Trabajamos con los mejores proveedores.</li>
+           </ul>
+        </div>
+        <div class="tarjetas-hijo" style="padding: 0px" id="home-img-servicios">
+            <img src="img/home/03.jpg" width="100%" alt="">
+        </div>
     </div>
     <hr>
-    <section id="fotos-local">
-        <div class="foto-local">
-            <a href="img/home/cafeteria.jpg" rel="shadowbox"><img src="img/home/cafeteria.jpg" title="Click para ampliar"></a>
+    <div class="titulo-servicios">CONOCE ALGUNO DE NUESTROS PLATILLOS</div>
+
+    <div id="carouselExampleControls" class="carousel slide micarrusel" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/home/carrusel/01.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/03.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/06.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/08.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/09.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/10.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/11.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/12.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/13.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/14.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/15.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/16.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/17.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/18.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/home/carrusel/19.jpg" class="d-block w-100" alt="...">
+            </div>
         </div>
-        <div class="foto-local">
-            <a href="img/home/pizzeria-fachada.jpg" rel="shadowbox"><img src="img/home/pizzeria-fachada.jpg" title="Click para ampliar"></a>
-        </div>
-        <div class="foto-local">
-            <a href="img/home/comedor.jpg" rel="shadowbox"><img src="img/home/comedor.jpg" title="Click para ampliar"></a>
-        </div>
-        <div class="foto-local">
-            <a href="img/home/pizzeria-interior.jpg" rel="shadowbox"><img src="img/home/pizzeria-interior.jpg" title="Click para ampliar"></a>
-        </div>
-    </section>
-     
+    </div>
+
     <hr>
-    <div class="titulo-servicios">NUESTRO EQUIPO</div>
-    <section class="infos"> 
-        <p>
-        Contamos con <strong>40 EMPLEADOS</strong>, centro de producción, cafeteria, camión industrial. <br>
-        Un excelente equipo dispuesto a dar su mejor servicio para que nuestros clientes se sienta de la mejor manera.</p>
-    </section>
-    <hr> 
-    
-    <section id="fotos-equipo">
-        <div>
-            <a href="img/home/equipo.jpeg" rel="shadowbox"><img src="img/home/equipo.jpeg" title="Click para ampliar"></a>
-        </div>
-        <div>
-            <a href="img/home/equipo.jpeg" rel="shadowbox"><img src="img/home/equipo.jpeg" title="Click para ampliar"></a>
-        </div>
-        <div>
-            <a href="img/home/equipo.jpeg" rel="shadowbox"><img src="img/home/equipo.jpeg" title="Click para ampliar"></a>
-        </div>
-    </section>
-    <hr> 
-    
+    <div class="titulo-servicios">EQUIPO DE TRABAJO</div>
     <div id="fotos-fund">
         <div>
             <div class="foto_fund">
-                <a href="img/home/pers1.png" rel="shadowbox"><img src="img/home/pers1.png" title="Click para ampliar"></a>
+                <a href="img/home/pers1.png" rel="shadowbox"><img src="img/home/equipo.jpg" title="Click para ampliar"></a>
             </div>
-            <h4>alejandro molina</h4>
-            <h5>presidente</h5>
+        </div> 
+        <div>
+           <div class="foto_fund">
+                <a href="img/home/pers2.png" rel="shadowbox"><img src="img/home/equipo01.jpg" title="Click para ampliar"></a>
+           </div>
         </div>
         <div>
            <div class="foto_fund">
-                <a href="img/home/pers2.png" rel="shadowbox"><img src="img/home/pers2.png" title="Click para ampliar"></a>
+                <a href="img/home/pers3.png" rel="shadowbox"><img src="img/home/equipo02.jpg" title="Click para ampliar"></a>
            </div>
-            <h4>diana molina</h4>
-            <h5>gerente general</h5>
-        </div>
-        <div>
-           <div class="foto_fund">
-                <a href="img/home/pers3.png" rel="shadowbox"><img src="img/home/pers3.png" title="Click para ampliar"></a>
-           </div>
-            <h4>emilio melara</h4>
-            <h5>gerente de operaciones</h5>
         </div>
         <div> 
            <div class="foto_fund">
-                <a href="img/home/pers4.png" rel="shadowbox"><img src="img/home/pers4.png" title="Click para ampliar"></a>
+                <a href="img/home/pers4.png" rel="shadowbox"><img src="img/home/equipo03.jpg" title="Click para ampliar"></a>
            </div>
-            <h4>natalia molina</h4>
-            <h5>gerente general</h5>
         </div>
     </div>
 
@@ -132,6 +154,10 @@
 
  
  <!-- JavaScript -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/jquery/jquery-migrate.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
