@@ -21,7 +21,7 @@
         <div class="menu-dia" id="menu_lunes" onclick="mostrarLunes()">
             <div class="menu-contenido">
                 <span>Lunes</span><hr>
-                <img class="img-encabezado" src="img/productos/a-07.jpg" alt="">
+                <img class="img-encabezado" src="img/home/carrusel/19.jpg" alt="">
                 <ul class="list-group">
                     <li class="list-group-item">Pollo asado</li>
                     <li class="list-group-item">Cuadros de Res entomatados</li>
@@ -44,7 +44,7 @@
         <div class="menu-dia" id="menu_martes" onclick="mostrarMartes()">
             <div class="menu-contenido">
                 <span>Martes</span><hr>
-                <img class="img-encabezado" src="img/productos/a-02.jpg" alt="">
+                <img class="img-encabezado" src="img/home/carrusel/12.jpg" alt="">
                 <ul class="list-group">
                     <li class="list-group-item">Chop Suey de Pollo</li>
                     <li class="list-group-item">Chuletas de Cerdo con salsa de ciruela</li>
@@ -67,7 +67,7 @@
         <div class="menu-dia" id="menu_miercoles" onclick="mostrarMiercoles()">
             <div class="menu-contenido">
                 <span>Miércoles</span><hr>
-                <img class="img-encabezado" src="img/productos/a-03.jpg" alt="">
+                <img class="img-encabezado" src="img/home/carrusel/17.jpg" alt="">
                 <ul class="list-group">
                     <li class="list-group-item">Pollo frito</li>
                     <li class="list-group-item">Salpicón</li>
@@ -90,7 +90,7 @@
         <div class="menu-dia" id="menu_jueves" onclick="mostrarJueves()">
             <div class="menu-contenido">
                 <span>Jueves</span><hr>
-                <img class="img-encabezado" src="img/productos/a-04.jpg" alt="">
+                <img class="img-encabezado" src="img/home/carrusel/16.jpg" alt="">
                 <ul class="list-group">
                     <li class="list-group-item">Muslos de pollo con melocotón</li>
                     <li class="list-group-item">Carne asada</li>
@@ -113,7 +113,7 @@
         <div class="menu-dia" id="menu_viernes" onclick="mostrarViernes()">
             <div class="menu-contenido">
                 <span>Viernes</span><hr>
-                <img class="img-encabezado" src="img/productos/a-05.jpg" alt="">
+                <img class="img-encabezado" src="img/home/carrusel/19.jpg" alt="">
                 <ul class="list-group">
                     <li class="list-group-item">Pollo encebollado</li>
                     <li class="list-group-item">Carne guisadas</li>
@@ -136,7 +136,7 @@
         <div class="menu-dia" id="menu_sabado" onclick="mostrarSabado()">
             <div class="menu-contenido">
                 <span>Sábado</span><hr>
-                <img class="img-encabezado" src="img/productos/a-06.jpg" alt="">
+                <img class="img-encabezado" src="img/home/carrusel/10.jpg" alt="">
                 <ul class="list-group">
                     <li class="list-group-item">Pechuguitas de pollo con salsa bufalo EMP</li>
                     <li class="list-group-item">Costillas de cerdo encebolladas</li>
@@ -159,7 +159,7 @@
         <div class="menu-dia" id="menu_domingo" onclick="mostrarDomingo()">
             <div class="menu-contenido">
                 <span>Domingo</span><hr>
-                <img class="img-encabezado" src="img/productos/a-06.jpg" alt="">
+                <img class="img-encabezado" src="img/home/carrusel/01.jpg" alt="">
                 <ul class="list-group">
                     <li class="list-group-item">Pechuguitas de pollo con salsa bufalo EMP</li>
                     <li class="list-group-item">Costillas de cerdo encebolladas</li>
